@@ -1,0 +1,12 @@
+lib: [
+  "_build/install/default/lib/skramel/META"
+  "_build/install/default/lib/skramel/dune-package"
+  "_build/install/default/lib/skramel/opam"
+]
+bin: [
+  "_build/install/default/bin/skramel"
+]
+doc: [
+  "_build/install/default/doc/skramel/LICENSE"
+  "_build/install/default/doc/skramel/README.md"
+]

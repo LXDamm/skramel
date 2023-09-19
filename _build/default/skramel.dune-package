@@ -1,0 +1,7 @@
+(lang dune 3.8)
+(name skramel)
+(sections (lib .) (bin ../../bin) (doc ../../doc/skramel))
+(files
+ (lib (META dune-package opam))
+ (bin (skramel))
+ (doc (LICENSE README.md)))

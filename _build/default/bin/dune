@@ -1,0 +1,4 @@
+(executable
+ (public_name skramel)
+ (name main)
+ (libraries skramel))
