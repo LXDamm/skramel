@@ -7,4 +7,7 @@ let speclist = [
   ("-o", Arg.Set_string output_file, "Set output file name");
 ]
 
-let () = Arg.parse speclist anon_fun usage_msg
+let () = Arg.parse speclist anon_fun usage_msg;
+print_string output_file.contents;
+
+let ic = open_in input_files in
