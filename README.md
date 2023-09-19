@@ -1,2 +1,2 @@
 # skramel
-Just a exploration of html package and generation
+Just a exploration of html packaging and generation
